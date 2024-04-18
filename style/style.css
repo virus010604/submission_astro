@@ -1,0 +1,307 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 10000px;
+  background-color: white;
+  overflow-x: hidden;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* kepala/main */
+.logoutm {
+  width: 250px;
+  height: 250px;
+  margin-left: 2rem;
+}
+.navbar {
+  display: flex;
+}
+.navbar .navA {
+  border-bottom-left-radius: 80px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  min-height: 100vh;
+  min-width: 60%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.mainhero {
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.mainhero h1 span {
+  color: transparent;
+  font-size: 4.5rem;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+.mainhero h1,
+h3 {
+  margin: 0rem 0rem;
+}
+.mainhero p {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.btnsec {
+  display: flex;
+  align-items: center;
+}
+.btnsec button a {
+  color: #fefaf6;
+  text-decoration: none;
+}
+.btnsec button {
+  padding: 1.3rem;
+  width: 200px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: aliceblue;
+  margin: 0rem 0rem;
+  margin-right: 1.5rem;
+  height: 70px;
+  background-color: transparent;
+  border: #fefaf6 solid 3px;
+}
+.btnsec img {
+  width: 50px;
+  margin: 1.5rem 0;
+  margin-left: 5rem;
+  filter: saturate(0%);
+  transition: 0.5s;
+  background-color: #fefaf6;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+.btnsec img:hover {
+  transform: scale(1.2);
+  filter: saturate(1);
+}
+.navbarnav {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 150px;
+}
+.navbarlink {
+  display: flex;
+  margin-right: 15%;
+}
+.navbarnav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dropdown {
+  display: block;
+}
+.dropdown:hover .drop {
+  opacity: 1;
+}
+.drop {
+  margin-top: 1rem;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.dropdown .drop a {
+  margin-top: 1.5rem;
+  display: block;
+}
+.btnreg {
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  padding: 1.3rem;
+  width: 200px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 2rem 3rem;
+  height: 70px;
+}
+.navB {
+  border-bottom-right-radius: 80px;
+  display: flex;
+  align-items: end;
+  background-image: url(/asset/walkway-tropical-jungle.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 40%;
+}
+.slidew {
+  left: -20%;
+  position: relative;
+  min-width: 4rem;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  border: #fefaf6 solid 1px;
+}
+.slidew .ttl {
+  color: #000000;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+}
+.slide {
+  display: flex;
+  width: 355px;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+}
+.slide img {
+  flex: 1 0% 100%;
+  width: 400px;
+  height: 252px;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+/* isi/badan */
+.aboutus {
+  padding-top: 13rem;
+}
+.aboutus h2 {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+}
+.ket {
+  display: flex;
+}
+.tentang {
+  padding: 2rem 4rem;
+}
+.tentang .isitnt {
+  font-size: 2rem;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+.caption {
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.tentang img {
+  width: 50%;
+}
+.founders {
+  padding-top: 13rem;
+}
+.founders h2 {
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+}
+.pendiri {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4rem;
+}
+.pendiri .kaption img {
+  width: 2.7rem;
+  filter: saturate(0%);
+  transition: 0.5s;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 0.3rem;
+  border-radius: 10px;
+  margin: 0 1rem;
+}
+.pendiri .kaption img:hover {
+  transform: scale(1.2);
+  filter: saturate(1);
+}
+.pendiri .kaption .a strong {
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+.pendiri .kaption .a {
+  font-size: 1.5rem;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 2rem;
+  width: 30rem;
+  transition: 1s;
+  cursor: pointer;
+}
+.pendiri .kaption .b {
+  transform: scaley(0);
+  margin-top: -4rem;
+  font-size: 1rem;
+  transition: 1s;
+  opacity: 0;
+  display: flex;
+  padding: 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+}
+.pendiri .kaption .a:hover .b {
+  transform: scalex(1);
+  opacity: 1;
+  margin-top: 1rem;
+}
