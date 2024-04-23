@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbarnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 130px;
+    background-color: aliceblue;
+  }
+  .logoutm {
+    width: 250px;
+    height: 250px;
+    margin-left: 2rem;
+    margin-top: -1rem;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbarnav {
+    z-index: 999;
+  }
+  
+  .navbarnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.005);
+    backdrop-filter: blur(5px);
+  }
+  
+  .navbarnav .navbarextra {
+    display: none;
+  }
+  
+  .navbarlink {
+    display: flex;
+    margin-right: 15%;
+  }
+  
+  .navbarnav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarlink a:hover::after {
+    transform: scaleX(1);
+  }
+  .dropdown .ar {
+    transform: scaleY(1);
+    transition: 0.5s;
+  }
+  .dropdown:hover .ar {
+    transform: scaleY(-1);
+  }
+  .navbarlink a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid black;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .dropdown {
+    display: flex;
+  }
+  .dropdown:hover .drop {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown .drop {
+    margin-top: 2rem;
+    position: absolute;
+    display: none;
+    transition: 0.5s;
+    z-index: 2;
+  }
+  
+  .dropdown .drop a {
+    margin-top: 1.5rem;
+    display: block;
+  }
+  ::placeholder{
+    color: #ffffffc6;
+  }
+  .cari{
+    background-image: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
+  padding: 1rem;
+  border: none;
+  outline: none;
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  color: black;
+  height: 20px;
+  }

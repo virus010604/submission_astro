@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: aliceblue;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -15,6 +16,7 @@ body {
   width: 250px;
   height: 250px;
   margin-left: 2rem;
+  margin-top: -1rem;
 }
 
 .navbar {
@@ -76,8 +78,13 @@ h3 {
   color: #fefaf6;
   text-decoration: none;
 }
-
+.btnsec button:hover{
+  background-color: black;
+  border: none;
+}
 .btnsec button {
+  cursor: pointer;
+  transition: 0.5s;
   padding: 1.3rem;
   width: 200px;
   font-size: 1.2rem;
@@ -116,7 +123,7 @@ h3 {
   right: 0;
   top: 0;
   left: 0;
-  height: 150px;
+  height: 130px;
   background-color: rgba(255, 255, 255, 0.005);
   backdrop-filter: blur(5px);
 }
@@ -136,29 +143,61 @@ h3 {
   margin: 0 2.5rem;
   font-size: 1.2rem;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
-
+.navbarlink a:hover::after {
+  transform: scaleX(1);
+}
+.dropdown .ar {
+  transform: scaleY(1);
+  transition: 0.5s;
+}
+.dropdown:hover .ar {
+  transform: scaleY(-1);
+}
+.navbarlink a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid black;
+  border-radius: 50px;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
 .dropdown {
-  display: block;
+  display: flex;
 }
-
 .dropdown:hover .drop {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
-.drop {
-  margin-top: 1rem;
+.dropdown .drop {
+  margin-top: 2rem;
   position: absolute;
   display: none;
   transition: 0.5s;
+  z-index: 2;
 }
 
 .dropdown .drop a {
   margin-top: 1.5rem;
   display: block;
 }
-
+.btnreg:hover , .btns button:hover{
+transform: scale(1.1);  
+background-image: none;
+background-color: #000000;
+color: #ffffff;
+-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+-moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
 .btnreg {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
   background-image: linear-gradient(
     45deg,
     rgb(140, 85, 250) 0%,
@@ -166,14 +205,13 @@ h3 {
     rgb(143, 230, 243) 100%
   );
   padding: 1.3rem;
-  width: 200px;
+  width: 150px;
   font-size: 1.2rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
   margin: 2rem 3rem;
-  height: 70px;
+  height: 30px;
 }
 
 .navB {
@@ -391,7 +429,10 @@ h3 {
 .kontent .d p {
   font-size: 1.1rem;
 }
-
+.d{
+  display: flex;
+  flex-direction: column;
+}
 .kontent .f div {
   display: flex;
   align-items: center;
@@ -414,8 +455,18 @@ h3 {
   display: flex;
   margin-bottom: 3rem;
 }
+.btnp:hover{
+  transform: scale(1.1);
+  background-image: none;
+  background-color: #000000;
+  color: #ffffff;
+}
 
 .btnp {
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  transform: scale(1);  
   text-decoration: none;
   color: #000000;
   background: linear-gradient(
@@ -428,6 +479,7 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
   border-radius: 10px;
+  max-width: 15%;
 }
 
 ::-webkit-scrollbar {
@@ -477,6 +529,7 @@ h3 {
   margin-top: 1.5rem;
 }
 .btns button {
+  transition: 0.5s;
   font-weight: bold;
   font-size: 1.5rem;
   padding: 1.5rem 4rem;
@@ -639,6 +692,7 @@ footer .frow .fo img:hover {
     border: none;
     background-image: none;
     background-color: #000000;
+    cursor: pointer;
   }
 
   .btnsec {
