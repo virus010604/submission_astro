@@ -1,48 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uknown</title>
-    <link rel="icon" href="/asset/logo uon white.png" />
-    <link rel="stylesheet" href="/style/style2.css">
-</head>
-<body>
+    <link rel="icon" href="/asset/logo uon a s.png" />
+    <link rel="stylesheet" href="/style/style2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
     <header>
-        <nav class="navbarnav">
-            <img class="logoutm" src="/asset/logo uon.png" alt="logo" />
-            <div class="navbarlink">
-              <a href="#" id="home">Home</a>
-              <a href="#Tentang" id="aboutus">Tentang Kami </a>
-              <div class="dropdown">
-                  <a href="#Product" id="tour" style="flex-direction: row;">Berkunjung <i class="ar" data-feather="chevron-up" style="padding-left: 0.5rem;"></i></a>
-                <div class="drop">
-                  <a href="#Product" id="GJ">Gua Jomblang</a>
-                  <a href="#Product" id="GL">Grojogan Lepo Dlingo</a>
-                  <a href="#Product" id="TB">Tebing Breksi</a>
-                  <a href="#Product" id="KP">Kedung Pedut</a>
-                </div>
-              </div>
-              <a href="#Hub" id="contack">Kontak</a>
+      <nav class="navbarnav">
+        <img class="logoutm" src="/asset/logo uon.png" alt="logo" />
+        <div class="navbarlink">
+          <a href="#" id="home">Home</a>
+          <a href="#Tentang" id="aboutus">Tentang Kami </a>
+          <div class="dropdown">
+            <a href="#Product" id="tour" style="flex-direction: row"
+              >Berkunjung
+              <i
+                class="ar"
+                data-feather="chevron-up"
+                style="padding-left: 0.5rem"
+              ></i
+            ></a>
+            <div class="drop">
+              <a href="#Product" id="GJ">Gua Jomblang</a>
+              <a href="#Product" id="GL">Grojogan Lepo Dlingo</a>
+              <a href="#Product" id="TB">Tebing Breksi</a>
+              <a href="#Product" id="KP">Kedung Pedut</a>
             </div>
-            <div class="navbarextra">
-              <a href="#0" id="hamburger" style="margin-right: 4rem;"><svg xmlns="http://www.w3.org/2000/svg" width="30"
-                  height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-                  <line x1="3" y1="12" x2="21" y2="12"></line>
-                  <line x1="3" y1="6" x2="21" y2="6"></line>
-                  <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg></a>
-            </div>
-<input class="cari" type="text" placeholder="Cari">
-          </nav>
+          </div>
+          <a href="#Hub" id="contack">Kontak</a>
+        </div>
+        <div class="navbarextra">
+          <a href="#0" id="hamburger" style="margin-right: 4rem"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line></svg
+          ></a>
+        </div>
+        <div class="search">
+          <input class="cari" type="text" placeholder="Cari" />
+          <i data-feather="search" style="color: black; padding-left: 1rem"></i>
+        </div>
+      </nav>
     </header>
     <article>
-
+      <section class="product">
+        <div class="prow">
+          <div class="p">
+            <div class="slider">
+              <h1>Goa Jomblang</h1>
+            </div>
+            <div class="cap">
+              <div class="des">
+                <h2 style="margin: 0; font-size: 2rem">Deskripsi</h2>
+                <p>
+                  <strong>Goa Jomblang</strong> adalah goa vertikal yang terjadi
+                  akibat runtuhnya tanah dan vegetasi karena proses geologi.
+                  Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut
+                  gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang
+                  sebagai tempat konservasi tumbuhan purba di dasar goa. Goa
+                  Jomblang merupakan vertical caving yang membutuhkan alat
+                  khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas
+                  vertical caving akan memacu adrenalin pengunjung.
+                </p>
+                <img
+                  src="/asset/istockphoto-2142384102-612x612.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Ada empat jalur yang dapat dilalui dengan kedalaman yang
+                  berbeda. Salah Satunya Goa Jomblang Untuk
+                  <strong
+                    >pemula dapat melewati jalur 15 meter, sedangkan bagi yang
+                    ahli dapat melewati jalur setinggi 40 meter, 60 meter,
+                    hingga 80 meter. Untuk jalur 15 meter dapat dilalui
+                    pengunjung dengan jalan kaki</strong
+                  >, meskipun medannya cukup terjal. Setelah sampai di dasar
+                  goa, pengunjung akan terpesona dengan pemandangan di sekitar
+                  mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan
+                  menemui berbagai vegetasi tumbuhan purba yang cantik dan
+                  rimbun. Kemudian saat menyusuri lorong goa, pengunjung dapat
+                  melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit
+                  di atasnya. Juga, ada aliran sungai yang cukup deras di dalam
+                  goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan
+                  mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat
+                  pemandangan yang disebut 'cahaya surga' Goa Jomblang yang
+                  kerap diunggah di media sosial. Cahaya matahari masuk ke dalam
+                  goa dan menyinari flowstone. Pemandangan matahari yang
+                  menyilaukan kontras dengan kedalaman goa yang gelap gulita,
+                  pemandangan ini membuat pengunjung berdecak kagum. Dari
+                  sinilah istilah 'cahaya surga' tersebut muncul. Keindahan
+                  'cahaya surga' hanya dapat dinikmati pada waktu tertentu,
+                  <strong
+                    >waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00
+                    hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa
+                    Jomblang. Dengan catatan, cuaca sedang cerah</strong
+                  >. Karena kalau cuaca mendung, matahari tidak dapat masuk dan
+                  menyinari Mulut goa.
+                </p>
+                <img
+                  src="/asset/Guaj.png"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Bagi pengunjung yang ingin turun ke goa tidak perlu khawatir.
+                  Pengelola Goa Jomblang telah menyiapkan peralatan untuk
+                  vertical caving, yaitu SRT (Single Rope Technique) dan
+                  perlengkapan keamanan serta pemandu yang akan membawa
+                  pengunjung dengan aman.
+                </p>
+              </div>
+              <div class="det">
+                <h3 style="font-size: 2rem; margin-bottom: 1rem">Detail</h3>
+                <div class="z">
+                  <div>
+                    <i data-feather="droplet"></i>
+                    <p>Sungai</p>
+                  </div>
+                  <div>
+                    <i data-feather="activity"></i>
+                    <p>Caving</p>
+                  </div>
+                  <div>
+                    <i data-feather="coffee"></i>
+                    <p>Kafe</p>
+                  </div>
+                </div>
+                <div class="loc">
+                  <h3 style="font-size: 2rem; margin-bottom: 1rem">Location</h3>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.716384858161!2d110.63575041083949!3d-8.028150880112321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bb41fce34d717%3A0xf9ffcb6f9fbd5cce!2sJomblang%20Cave!5e0!3m2!1sen!2sid!4v1713928496128!5m2!1sen!2sid"
+                    width="100%"
+                    height="500px"
+                    style="border: none; outline: none; border-radius: 25px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div style="text-align: center; display:flex; justify-content:center;">
+                  <a href="" class="btnp">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p">
+            <div class="slider">
+              <h1>Goa Jomblang</h1>
+            </div>
+            <div class="cap">
+              <div class="des">
+                <h2 style="margin: 0; font-size: 2rem">Deskripsi</h2>
+                <p>
+                  <strong>Goa Jomblang</strong> adalah goa vertikal yang terjadi
+                  akibat runtuhnya tanah dan vegetasi karena proses geologi.
+                  Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut
+                  gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang
+                  sebagai tempat konservasi tumbuhan purba di dasar goa. Goa
+                  Jomblang merupakan vertical caving yang membutuhkan alat
+                  khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas
+                  vertical caving akan memacu adrenalin pengunjung.
+                </p>
+                <img
+                  src="/asset/istockphoto-2142384102-612x612.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Ada empat jalur yang dapat dilalui dengan kedalaman yang
+                  berbeda. Salah Satunya Goa Jomblang Untuk
+                  <strong
+                    >pemula dapat melewati jalur 15 meter, sedangkan bagi yang
+                    ahli dapat melewati jalur setinggi 40 meter, 60 meter,
+                    hingga 80 meter. Untuk jalur 15 meter dapat dilalui
+                    pengunjung dengan jalan kaki</strong
+                  >, meskipun medannya cukup terjal. Setelah sampai di dasar
+                  goa, pengunjung akan terpesona dengan pemandangan di sekitar
+                  mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan
+                  menemui berbagai vegetasi tumbuhan purba yang cantik dan
+                  rimbun. Kemudian saat menyusuri lorong goa, pengunjung dapat
+                  melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit
+                  di atasnya. Juga, ada aliran sungai yang cukup deras di dalam
+                  goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan
+                  mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat
+                  pemandangan yang disebut 'cahaya surga' Goa Jomblang yang
+                  kerap diunggah di media sosial. Cahaya matahari masuk ke dalam
+                  goa dan menyinari flowstone. Pemandangan matahari yang
+                  menyilaukan kontras dengan kedalaman goa yang gelap gulita,
+                  pemandangan ini membuat pengunjung berdecak kagum. Dari
+                  sinilah istilah 'cahaya surga' tersebut muncul. Keindahan
+                  'cahaya surga' hanya dapat dinikmati pada waktu tertentu,
+                  <strong
+                    >waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00
+                    hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa
+                    Jomblang. Dengan catatan, cuaca sedang cerah</strong
+                  >. Karena kalau cuaca mendung, matahari tidak dapat masuk dan
+                  menyinari Mulut goa.
+                </p>
+                <img
+                  src="/asset/Guaj.png"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Bagi pengunjung yang ingin turun ke goa tidak perlu khawatir.
+                  Pengelola Goa Jomblang telah menyiapkan peralatan untuk
+                  vertical caving, yaitu SRT (Single Rope Technique) dan
+                  perlengkapan keamanan serta pemandu yang akan membawa
+                  pengunjung dengan aman.
+                </p>
+              </div>
+              <div class="det">
+                <h3 style="font-size: 2rem; margin-bottom: 1rem">Detail</h3>
+                <div class="z">
+                  <div>
+                    <i data-feather="droplet"></i>
+                    <p>Sungai</p>
+                  </div>
+                  <div>
+                    <i data-feather="activity"></i>
+                    <p>Caving</p>
+                  </div>
+                  <div>
+                    <i data-feather="coffee"></i>
+                    <p>Kafe</p>
+                  </div>
+                </div>
+                <div class="loc">
+                  <h3 style="font-size: 2rem; margin-bottom: 1rem">Location</h3>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.716384858161!2d110.63575041083949!3d-8.028150880112321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bb41fce34d717%3A0xf9ffcb6f9fbd5cce!2sJomblang%20Cave!5e0!3m2!1sen!2sid!4v1713928496128!5m2!1sen!2sid"
+                    width="100%"
+                    height="500px"
+                    style="border: none; outline: none; border-radius: 25px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div style="text-align: center; display:flex; justify-content:center;">
+                  <a href="" class="btnp">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p">
+            <div class="slider">
+              <h1>Goa Jomblang</h1>
+            </div>
+            <div class="cap">
+              <div class="des">
+                <h2 style="margin: 0; font-size: 2rem">Deskripsi</h2>
+                <p>
+                  <strong>Goa Jomblang</strong> adalah goa vertikal yang terjadi
+                  akibat runtuhnya tanah dan vegetasi karena proses geologi.
+                  Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut
+                  gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang
+                  sebagai tempat konservasi tumbuhan purba di dasar goa. Goa
+                  Jomblang merupakan vertical caving yang membutuhkan alat
+                  khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas
+                  vertical caving akan memacu adrenalin pengunjung.
+                </p>
+                <img
+                  src="/asset/istockphoto-2142384102-612x612.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Ada empat jalur yang dapat dilalui dengan kedalaman yang
+                  berbeda. Salah Satunya Goa Jomblang Untuk
+                  <strong
+                    >pemula dapat melewati jalur 15 meter, sedangkan bagi yang
+                    ahli dapat melewati jalur setinggi 40 meter, 60 meter,
+                    hingga 80 meter. Untuk jalur 15 meter dapat dilalui
+                    pengunjung dengan jalan kaki</strong
+                  >, meskipun medannya cukup terjal. Setelah sampai di dasar
+                  goa, pengunjung akan terpesona dengan pemandangan di sekitar
+                  mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan
+                  menemui berbagai vegetasi tumbuhan purba yang cantik dan
+                  rimbun. Kemudian saat menyusuri lorong goa, pengunjung dapat
+                  melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit
+                  di atasnya. Juga, ada aliran sungai yang cukup deras di dalam
+                  goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan
+                  mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat
+                  pemandangan yang disebut 'cahaya surga' Goa Jomblang yang
+                  kerap diunggah di media sosial. Cahaya matahari masuk ke dalam
+                  goa dan menyinari flowstone. Pemandangan matahari yang
+                  menyilaukan kontras dengan kedalaman goa yang gelap gulita,
+                  pemandangan ini membuat pengunjung berdecak kagum. Dari
+                  sinilah istilah 'cahaya surga' tersebut muncul. Keindahan
+                  'cahaya surga' hanya dapat dinikmati pada waktu tertentu,
+                  <strong
+                    >waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00
+                    hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa
+                    Jomblang. Dengan catatan, cuaca sedang cerah</strong
+                  >. Karena kalau cuaca mendung, matahari tidak dapat masuk dan
+                  menyinari Mulut goa.
+                </p>
+                <img
+                  src="/asset/Guaj.png"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Bagi pengunjung yang ingin turun ke goa tidak perlu khawatir.
+                  Pengelola Goa Jomblang telah menyiapkan peralatan untuk
+                  vertical caving, yaitu SRT (Single Rope Technique) dan
+                  perlengkapan keamanan serta pemandu yang akan membawa
+                  pengunjung dengan aman.
+                </p>
+              </div>
+              <div class="det">
+                <h3 style="font-size: 2rem; text-align:center">Detail</h3>
+                <div class="z">
+                  <div>
+                    <i data-feather="droplet"></i>
+                    <p>Sungai</p>
+                  </div>
+                  <div>
+                    <i data-feather="activity"></i>
+                    <p>Caving</p>
+                  </div>
+                  <div>
+                    <i data-feather="coffee"></i>
+                    <p>Kafe</p>
+                  </div>
+                </div>
+                <div class="loc">
+                  <h3 style="font-size: 2rem; margin-bottom: 1rem">Location</h3>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.716384858161!2d110.63575041083949!3d-8.028150880112321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bb41fce34d717%3A0xf9ffcb6f9fbd5cce!2sJomblang%20Cave!5e0!3m2!1sen!2sid!4v1713928496128!5m2!1sen!2sid"
+                    width="100%"
+                    height="500px"
+                    style="border: none; outline: none; border-radius: 25px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div style="text-align: center; display:flex; justify-content:center;">
+                  <a href="" class="btnp">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p">
+            <div class="slider">
+              <h1>Goa Jomblang</h1>
+            </div>
+            <div class="cap">
+              <div class="des">
+                <h2 style="margin: 0; font-size: 2rem">Deskripsi</h2>
+                <p>
+                  <strong>Goa Jomblang</strong> adalah goa vertikal yang terjadi
+                  akibat runtuhnya tanah dan vegetasi karena proses geologi.
+                  Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut
+                  gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang
+                  sebagai tempat konservasi tumbuhan purba di dasar goa. Goa
+                  Jomblang merupakan vertical caving yang membutuhkan alat
+                  khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas
+                  vertical caving akan memacu adrenalin pengunjung.
+                </p>
+                <img
+                  src="/asset/istockphoto-2142384102-612x612.jpg"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Ada empat jalur yang dapat dilalui dengan kedalaman yang
+                  berbeda. Salah Satunya Goa Jomblang Untuk
+                  <strong
+                    >pemula dapat melewati jalur 15 meter, sedangkan bagi yang
+                    ahli dapat melewati jalur setinggi 40 meter, 60 meter,
+                    hingga 80 meter. Untuk jalur 15 meter dapat dilalui
+                    pengunjung dengan jalan kaki</strong
+                  >, meskipun medannya cukup terjal. Setelah sampai di dasar
+                  goa, pengunjung akan terpesona dengan pemandangan di sekitar
+                  mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan
+                  menemui berbagai vegetasi tumbuhan purba yang cantik dan
+                  rimbun. Kemudian saat menyusuri lorong goa, pengunjung dapat
+                  melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit
+                  di atasnya. Juga, ada aliran sungai yang cukup deras di dalam
+                  goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan
+                  mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat
+                  pemandangan yang disebut 'cahaya surga' Goa Jomblang yang
+                  kerap diunggah di media sosial. Cahaya matahari masuk ke dalam
+                  goa dan menyinari flowstone. Pemandangan matahari yang
+                  menyilaukan kontras dengan kedalaman goa yang gelap gulita,
+                  pemandangan ini membuat pengunjung berdecak kagum. Dari
+                  sinilah istilah 'cahaya surga' tersebut muncul. Keindahan
+                  'cahaya surga' hanya dapat dinikmati pada waktu tertentu,
+                  <strong
+                    >waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00
+                    hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa
+                    Jomblang. Dengan catatan, cuaca sedang cerah</strong
+                  >. Karena kalau cuaca mendung, matahari tidak dapat masuk dan
+                  menyinari Mulut goa.
+                </p>
+                <img
+                  src="/asset/Guaj.png"
+                  alt=""
+                  style="
+                    width: 100%;
+                    border-radius: 25px;
+                    height: 20%;
+                    object-fit: cover;
+                  "
+                />
+                <p>
+                  Bagi pengunjung yang ingin turun ke goa tidak perlu khawatir.
+                  Pengelola Goa Jomblang telah menyiapkan peralatan untuk
+                  vertical caving, yaitu SRT (Single Rope Technique) dan
+                  perlengkapan keamanan serta pemandu yang akan membawa
+                  pengunjung dengan aman.
+                </p>
+              </div>
+              <div class="det">
+                <h3 style="font-size: 2rem; margin-bottom: 1rem">Detail</h3>
+                <div class="z">
+                  <div>
+                    <i data-feather="droplet"></i>
+                    <p>Sungai</p>
+                  </div>
+                  <div>
+                    <i data-feather="activity"></i>
+                    <p>Caving</p>
+                  </div>
+                  <div>
+                    <i data-feather="coffee"></i>
+                    <p>Kafe</p>
+                  </div>
+                </div>
+                <div class="loc">
+                  <h3 style="font-size: 2rem; margin-bottom: 1rem">Location</h3>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.716384858161!2d110.63575041083949!3d-8.028150880112321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bb41fce34d717%3A0xf9ffcb6f9fbd5cce!2sJomblang%20Cave!5e0!3m2!1sen!2sid!4v1713928496128!5m2!1sen!2sid"
+                    width="100%"
+                    height="500px"
+                    style="border: none; outline: none; border-radius: 25px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div style="text-align: center; display:flex; justify-content:center;">
+                  <a href="" class="btnp">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </article>
     <footer>
-
+      <div class="frow">
+        <div class="hak">
+          <div class="foa">
+            <img src="/asset/logo uon.png" alt="ig" />
+            <p>Let's journey to hidden wonders of the world</p>
+          </div>
+          <div class="foo">
+            <div class="fo">
+              <p>Media Sosial</p>
+              <a target="_blank" href="https://www.instagram.com/ccndyyyy.comm/"
+                ><img src="/asset/ig.png" alt="ig"
+              /></a>
+              <a target="_blank" href="https://www.instagram.com/ccndyyyy.comm/"
+                ><img src="/asset/fb.png" alt="ig"
+              /></a>
+            </div>
+            <div class="fo">
+              <p>Bekerjasama dengan</p>
+              <a target="_blank" href="https://www.instagram.com/hmrcode/"
+                ><img src="/asset/hmcLight.png" alt="ig"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/programming.tadulako/"
+                ><img src="/asset/LOGO-02 (1).png" alt="ig"
+              /></a>
+            </div>
+            <div class="fo">
+              <p>Sponsor</p>
+              <a target="_blank" href="https://www.instagram.com/hmrcode/"
+                ><img src="/asset/hmcLight.png" alt="ig"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/programming.tadulako/"
+                ><img src="/asset/LOGO-02 (1).png" alt="ig"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+          "
+        >
+          <p style="margin-bottom: 0">created by Juan&Cindy | &#169; 2024</p>
+        </div>
+      </div>
     </footer>
     <script></script>
-</body>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
