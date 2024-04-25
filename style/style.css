@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -78,7 +78,7 @@ h3 {
   color: #fefaf6;
   text-decoration: none;
 }
-.btnsec button:hover{
+.btnsec button:hover {
   background-color: black;
   border: none;
 }
@@ -185,14 +185,15 @@ h3 {
   margin-top: 1.5rem;
   display: block;
 }
-.btnreg:hover , .btns button:hover{
-transform: scale(1.1);  
-background-image: none;
-background-color: #000000;
-color: #ffffff;
--webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
--moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+.btnreg:hover,
+.btns button:hover {
+  transform: scale(1.1);
+  background-image: none;
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
 }
 .btnreg {
   text-align: center;
@@ -302,15 +303,15 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   max-width: 500px;
   padding: 2rem;
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
 }
 
 .caption {
   padding: 1rem;
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   margin-top: 5rem;
   text-align: center;
   font-size: 2rem;
@@ -366,8 +367,8 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 .pendiri .kaption .a {
   font-size: 1.5rem;
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   padding: 2rem;
   width: 30rem;
   transition: 1s;
@@ -411,8 +412,8 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 .kontent {
   display: flex;
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   padding: 2rem;
   padding-bottom: 3rem;
   max-width: 1000px;
@@ -429,7 +430,7 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 .kontent .d p {
   font-size: 1.1rem;
 }
-.d{
+.d {
   display: flex;
   flex-direction: column;
 }
@@ -442,8 +443,8 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   margin-right: 1.5rem;
   color: rgb(4, 196, 4);
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   padding: 0.7rem 1rem;
 }
 
@@ -455,7 +456,7 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   display: flex;
   margin-bottom: 3rem;
 }
-.btnp:hover{
+.btnp:hover {
   transform: scale(1.1);
   background-image: none;
   background-color: #000000;
@@ -466,7 +467,7 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   transition: 0.5s;
   display: flex;
   justify-content: center;
-  transform: scale(1);  
+  transform: scale(1);
   text-decoration: none;
   color: #000000;
   background: linear-gradient(
@@ -501,8 +502,8 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 .hub {
   padding: 2rem;
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background-color: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
 }
 
 .input-group {
@@ -513,8 +514,8 @@ box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 
 .input-group input {
   border-radius: 25px;
-  background: #ffffff;
-  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: inset 6px 6px 12px #d8dfe6, inset -6px -6px 12px #ffffff;
   width: 100%;
   font-size: 1.5rem;
   color: rgb(3, 3, 3);
@@ -554,8 +555,8 @@ textarea {
   padding: 2rem;
   font-size: 1.5rem;
   border: none;
-  background: #ffffff;
-  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: inset 6px 6px 12px #d8dfe6, inset -6px -6px 12px #ffffff;
   outline: none;
   resize: none;
 }
@@ -656,12 +657,7 @@ footer .frow .fo img:hover {
     display: inline;
   }
 
-  .navbarnav .navbarlink .dropdown {
-    padding: 3rem;
-  }
-
   .navbarnav .navbarlink a {
-    padding: 3rem;
     font-size: 2rem;
   }
 
@@ -670,6 +666,8 @@ footer .frow .fo img:hover {
   }
 
   .navbarlink {
+    padding-top: 2.5rem;
+    gap: 4rem;
     transform: scaleY(0);
     transform-origin: top;
     flex-direction: column;
@@ -681,6 +679,7 @@ footer .frow .fo img:hover {
     height: 100vh;
     transition: 0.4s;
     width: 100%;
+    font-size: 3rem;
   }
 
   .navbarnav .btnreg {
@@ -781,16 +780,6 @@ footer .frow .fo img:hover {
     overflow-x: auto;
     padding: 5rem 0;
     padding-right: 4rem;
-  }
-
-  .kontent {
-    display: flex;
-    border-radius: 50px;
-    background-color: #ffffff;
-    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-    padding: 2rem;
-    padding-bottom: 3rem;
-    max-width: 1000px;
   }
 
   .kontent .d p {

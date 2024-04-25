@@ -152,8 +152,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   border-radius: 30px;
   padding: 2rem;
 }
@@ -193,7 +193,115 @@ body {
     background-image: url(/asset/istockphoto-944461402-612x612.jpg);
   }
 }
-.det{
+.slider3 {
+  background-image: url(/asset/TB.jpg);
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  animation: gantibga3 8s infinite step-start alternate;
+}
+.slider3 h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(106, 0, 255),
+    0 0 40px rgb(106, 0, 255), 0 0 70px rgb(106, 0, 255),
+    0 0 80px rgb(106, 0, 255), 0 0 100px rgb(106, 0, 255),
+    0 0 150px rgb(106, 0, 255);
+}
+@keyframes gantibga3 {
+  0% {
+    background-image: url(/asset/TB.jpg);
+  }
+  30% {
+    background-image: url(/asset/TB\ 2.jpg);
+  }
+  60% {
+    background-image: url(/asset/TB\ 3.jpg);
+  }
+  90% {
+    background-image: url(/asset/TB\ 4.jpg);
+  }
+}
+.slider4 {
+  background-image: url(/asset/KP.jpg);
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  animation: gantibga4 8s infinite step-start alternate;
+}
+.slider4 h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(106, 0, 255),
+    0 0 40px rgb(106, 0, 255), 0 0 70px rgb(106, 0, 255),
+    0 0 80px rgb(106, 0, 255), 0 0 100px rgb(106, 0, 255),
+    0 0 150px rgb(106, 0, 255);
+}
+@keyframes gantibga4 {
+  0% {
+    background-image: url(/asset/KP.jpg);
+  }
+  30% {
+    background-image: url(/asset/TP\ 2.webp);
+  }
+  60% {
+    background-image: url(/asset/TP\ 3.webp);
+  }
+  90% {
+    background-image: url(/asset/TP\ 4.jpeg);
+  }
+}
+.slider2 {
+  background-image: url(/asset/gl.jpg);
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  animation: gantibga2 8s infinite step-start alternate;
+}
+.slider2 h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(106, 0, 255),
+    0 0 40px rgb(106, 0, 255), 0 0 70px rgb(106, 0, 255),
+    0 0 80px rgb(106, 0, 255), 0 0 100px rgb(106, 0, 255),
+    0 0 150px rgb(106, 0, 255);
+}
+@keyframes gantibga2 {
+  0% {
+    background-image: url(/asset/gl.jpg);
+  }
+  30% {
+    background-image: url(/asset/grojo\ 1.jpg);
+  }
+  60% {
+    background-image: url(/asset/grojo\ 2.jpg);
+  }
+  90% {
+    background-image: url(/asset/grojo\ 3.jpg);
+  }
+}
+.det {
   width: 40%;
 }
 .cap {
@@ -209,44 +317,43 @@ body {
   padding: 2rem;
   border-radius: 25px;
   transition: 1s;
-
 }
-.p .des:hover{
-height: 2620px;
+.p .des:hover {
+  height: 1700px;
 }
 .p .des p {
   font-size: 1.5rem;
 }
-.det .z{
+.det .z {
   display: flex;
   margin-top: 1.5rem;
 }
-.det .z div{
+.det .z div {
   display: flex;
   margin-right: 1.5rem;
   color: rgb(4, 196, 4);
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
   padding: 0.7rem 2rem;
   align-items: center;
   font-size: 1.2rem;
 }
-.det .z div p{
-  margin-left:1rem ;
+.det .z div p {
+  margin-left: 1rem;
 }
-.loc{
+.loc {
   margin-top: 2rem;
   border-radius: 25px;
   padding: 2rem;
-  background-color: #ffffff;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  background: #f0f8ff;
+  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
 }
-.btnp{
+.btnp {
   transition: 0.5s;
   display: flex;
   justify-content: center;
-  transform: scale(1);  
+  transform: scale(1);
   text-decoration: none;
   color: #000000;
   background: linear-gradient(
@@ -262,7 +369,7 @@ height: 2620px;
   max-width: 15%;
   margin-top: 2rem;
 }
-.btnp:hover{
+.btnp:hover {
   transform: scale(1.1);
   background-image: none;
   background-color: #000000;
@@ -327,4 +434,103 @@ footer .frow .fo img {
 footer .frow .fo img:hover {
   filter: saturate(1);
   transform: scale(1.1);
+}
+
+@media (max-width: 1423px) {
+  html {
+    font-size: 62.5%;
+  }
+  .navbarnav .navbarextra {
+    display: flex;
+    margin: 2rem;
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  }
+  .cari {
+    font-size: 1.7rem;
+  }
+  .navbarlink.active {
+    transform: scaleY(1);
+  }
+  .navbarlink a {
+    font-size: 2rem;
+  }
+  .navbarlink {
+    padding: 2.5rem;
+    gap: 4rem;
+    transform: scaleY(0);
+    transform-origin: top;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    align-items: center;
+    background-color: aliceblue;
+    margin-right: 0;
+    height: 100vh;
+    transition: 0.4s;
+    width: 100%;
+    font-size: 3rem;
+  }
+  .product {
+    padding-top: 10%;
+  }
+  .product .z {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .cap .des:hover {
+    height: 1100px;
+  }
+  .cap .des {
+    width: 100%;
+  }
+  .cap {
+    flex-wrap: wrap;
+  }
+  .det {
+    width: 100%;
+  }
+  .btnp {
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    margin: 3rem;
+  }
+  footer {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  footer .frow .hak {
+    display: block;
+    align-items: start;
+    justify-content: flex-start;
+  }
+
+  .foo {
+    justify-content: center;
+    display: flex;
+  }
+
+  .foa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foa img {
+    max-width: 40%;
+  }
+
+  footer .frow .hak {
+    height: 45rem;
+  }
+}
+@media (max-width: 1423px) {
+  html {
+    font-size: 55%;
+  }
 }
