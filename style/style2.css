@@ -476,6 +476,9 @@ footer .frow .fo img:hover {
     width: 100%;
     font-size: 3rem;
   }
+  .drop {
+    gap: 1.5rem;
+  }
   .product {
     padding-top: 10%;
   }
@@ -490,7 +493,7 @@ footer .frow .fo img:hover {
     width: 100%;
     height: 150px;
   }
-  .loc iframe{
+  .loc iframe {
     height: 300px;
   }
   .cap {
@@ -534,7 +537,6 @@ footer .frow .fo img:hover {
   footer .frow .hak {
     height: 45rem;
   }
-
 }
 @media (max-width: 800px) {
   html {
@@ -543,5 +545,4 @@ footer .frow .fo img:hover {
   .cap .des:hover {
     height: 1100px;
   }
-
 }

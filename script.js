@@ -22,7 +22,11 @@ function acc() {
 }
 setTimeout(function send() {
   alert("PESAN TERKIRIM!");
-},2000);
+}, 2000);
+
+function acc1() {
+  alert("Selamat Anda Kena Scam!");
+}
 
 // navbar scroll
 const nav = document.querySelector(".navbarnav");
@@ -46,3 +50,37 @@ const bagaObserver = new IntersectionObserver(function (entries, bagaObserver) {
 }, bagaOptions);
 
 bagaObserver.observe(baga);
+
+// ticket
+// const form = document.getElementById('myForm');
+// form.addEventListener('submit', function(event) {
+//   event.preventDefault();
+
+//   const inputNumber = document.getElementById('numberInput').value;
+//   const processedNumber = processNumber(inputNumber);
+//   const resultElement = document.getElementById('result');
+//   resultElement.textContent = processedNumber;
+// });
+
+// function processNumber(inputNumber) {
+//   const processedNumber = inputNumber * 2;
+//   return processedNumber;
+// }
+// const form = document.getElementById('tiket');
+// form.addEventListener('submit', function(event) {
+//   event.preventDefault(); // Cegah reload halaman
+
+//   // Ambil nilai input number
+//   const inputNumber = document.getElementById('orang').value;
+
+//   // Olah nilai input number
+//   const processedNumber = processNumber(inputNumber);
+
+//   // Tampilkan hasil pengolahan
+//   const resultElement = document.getElementById('result');
+//   resultElement.textContent = `hasil: ${processedNumber}`;
+// });
+// function processNumber(inputNumber) {
+//   const processedNumber = inputNumber * 150;
+//   return processedNumber;
+// }

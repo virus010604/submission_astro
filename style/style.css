@@ -32,7 +32,7 @@ body {
     rgb(143, 230, 243) 100%
   );
   min-height: 100vh;
-  min-width: 60%;
+  width: 60%;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -110,7 +110,7 @@ h3 {
   transform: scale(1.2);
   filter: saturate(1);
 }
-.navbarnav.aktif{
+.navbarnav.aktif {
   background-color: aliceblue;
 }
 .navbarnav {
@@ -171,7 +171,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-.drop.aktif{
+.drop.aktif {
   background-color: aliceblue;
   padding: 2rem;
 }
@@ -641,13 +641,14 @@ footer .frow .fo img:hover {
     min-height: 50vh;
     min-width: 100%;
   }
-
   .slidew {
     left: 0;
   }
-
   .navbar {
     flex-wrap: wrap;
+  }
+  .drop {
+    gap: 1.5rem;
   }
 
   .navbarnav .navbarlink .dropdown .drop {
@@ -839,7 +840,13 @@ footer .frow .fo img:hover {
     height: 45rem;
   }
 }
-
+@media (max-width: 780px) {
+  .slidew {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+  }
+}
 @media (max-width: 450px) {
   html {
     font-size: 55%;
