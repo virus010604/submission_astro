@@ -112,7 +112,7 @@ body {
   display: none;
   transition: 0.5s;
   z-index: 2;
-  padding: 2rem;
+  padding: 1.2rem 0;
 }
 
 .dropdown .drop a {
@@ -134,20 +134,28 @@ article {
   font-weight: bold;
 }
 .secA {
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 85, 250) 0%,
+    rgb(200, 215, 253) 75%,
+    rgb(143, 230, 243) 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 #numberInput {
   background-color: transparent;
-  border: 1px solid rgb(198, 143, 233);
+  border: 1px solid rgb(254, 251, 255);
   border-radius: 10px;
   height: 4.2rem;
   outline: none;
   font-size: 2rem;
   text-align: center;
   width: 10rem;
+  color:  white;
 }
 #numberInput::-webkit-inner-spin-button,
 #numberInput::-webkit-outer-spin-button {
@@ -162,14 +170,14 @@ article {
   border: none;
 }
 .btny {
-  border: 1px solid rgb(198, 143, 233);
+  border: 1px solid rgb(250, 250, 250);
   transition: 0.5s;
   display: flex;
   justify-content: center;
   outline: none;
   transform: scale(1);
   text-decoration: none;
-  color: rgb(198, 143, 233);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   padding: 1.5rem 3.5rem;
   font-size: 1rem;
@@ -236,13 +244,14 @@ article {
   gap: 1.5rem;
   height: 2rem;
   padding: 2rem;
-  background-color: #f0f8ff;
-  box-shadow: 6px 6px 12px #d8dfe6, -6px -6px 12px #ffffff;
+  background: #ebf5ff;
+  box-shadow:  6px 6px 12px #dde6f0,
+               -6px -6px 12px #f9ffff;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 1cm;
+  border-radius: 20px;
   margin: 2rem;
   width: 80%;
 }
@@ -279,7 +288,42 @@ footer .frow .hak {
   font-weight: bold;
   padding: 1.5rem;
 }
+/* plane */
+.animate{
+  background-color: #0000009a;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.fly{
+  position: relative;
+  left: -100%;
+  width: 1500px;
+  animation: terbang ease-in 3s ;
+}
+@keyframes terbang {
+  0%{
+    left: -100%;
+  }50%{
+    left: -50%;
+  }100%{
+    left: 100%;
+  }
+}
+.fly img{
+  width: 100%;
 
+}
+
+/* plane */
 footer .frow .foa p {
   font-size: 2rem;
   font-weight: bold;
@@ -351,6 +395,7 @@ footer .frow .fo img:hover {
     font-size: 3rem;
   }
   .drop {
+    margin-top: 2.5rem;
     gap: 1.5rem;
   }
   article {

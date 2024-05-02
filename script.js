@@ -26,6 +26,12 @@ setTimeout(function send() {
 
 function acc1() {
   alert("Selamat Anda Kena Scam!");
+  const ppp = document.querySelector(".animate")
+  ppp.style.display = "flex";
+}
+function acc2() {
+  const ppp = document.querySelector(".animate")
+  ppp.style.display = "none";
 }
 
 // navbar scroll
@@ -84,3 +90,9 @@ bagaObserver.observe(baga);
 //   const processedNumber = inputNumber * 150;
 //   return processedNumber;
 // }
+
+// fly
+// const ttt = document.getElementById("ttt");
+// t.addEventListener("click", () => {
+//   ppp.style.display = "flex";
+// });

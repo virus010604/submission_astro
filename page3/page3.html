@@ -83,13 +83,13 @@
           <div class="pay" data-aos="flip-right" data-aos-duration="1500">
             <div class="secA">
               <form id="myForm" class="myForm">
-                <div class="keterangan">
-                  <p>Harga Pertiket:Rp.1.000.000</p>
+                <div class="keterangan" style="color: WHITE;">
+                  <p>Harga Pertiket : Rp.1.000.000</p>
                 </div>
                 <div
                   style="
                     display: flex;
-                    gap: 2rem;
+                    gap: 1rem;
                     justify-content: center;
                     align-items: center;
                   "
@@ -103,7 +103,7 @@
                   <button class="btny" type="submit">Kirim</button>
                   <button class="btny" type="reset">Ulang</button>
                 </div>
-                <p style="font-size: 2rem; font-weight: bold" id="result"></p>
+                <p style="font-size: 2rem; font-weight: bold;color:white;" id="result"></p>
               </form>
             </div>
             <div class="jenis">
@@ -126,7 +126,7 @@
                     </div>
                     <span class="name">Credit Card</span>
                   </div>
-                  <input type="radio" class="radio" id="Credit Card" />
+                  <input type="radio" class="radio" id="Credit Card" name="pilih" value="Option1" required/>
                 </label>
                 <label for="PayPal">
                   <div class="imgName">
@@ -135,7 +135,7 @@
                     </div>
                     <span class="name">PayPal</span>
                   </div>
-                  <input type="radio" class="radio" id="PayPal" />
+                  <input type="radio" class="radio" id="PayPal" name="pilih" value="Option2" required/>
                 </label>
                 <label for="Mobiel Banking">
                   <div class="imgName">
@@ -147,8 +147,10 @@
                   <input
                     type="radio"
                     class="radio"
-                    name="Mobiel Banking"
+                    name="pilih"
                     id="Mobiel Banking"
+                     value="Option3"
+                      required
                   />
                 </label>
 
@@ -159,17 +161,25 @@
                     </div>
                     <span class="name">E-Wallet</span>
                   </div>
-                  <input type="radio" class="radio" id="E-Wallet" />
+                  <input type="radio" class="radio" id="myRadio" name="pilih" value="Option4" required/>
                 </label>
-                <button class="btnp" type="submit" onclick="acc1()">
-                  Bayar
-                </button>
+                <div style="display: flex; gap:1rem;justify-content:end; width:85%; ">
+                  <button class="btnp" type="reset" >
+                    Batal
+                  </button>
+                  <button class="btnp" type="reset" onclick="acc1()">
+                    Bayar
+                  </button>
+                </div>
               </form>
             </div>
           </div>
         </div>
       </section>
     </article>
+     <div class="animate" onclick="acc2()">
+        <img src="/asset/plane.png" alt="pesawat" class="fly">
+    </div>
     <footer>
       <div class="frow">
         <div class="hak">
@@ -240,7 +250,7 @@
       const inputNumber = document.getElementById("numberInput").value;
       const processedNumber = processNumber(inputNumber);
       const resultElement = document.getElementById("result");
-      resultElement.textContent = `total:  Rp.${processedNumber}`;
+      resultElement.textContent = `Total :  Rp.${processedNumber}`;
     });
 
     function processNumber(inputNumber) {
